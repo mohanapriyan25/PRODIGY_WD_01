@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #9f9797;
+  padding: 1rem;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0;
+  font-size: 22px;
+}
+
+.navbar ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar.scrolled {
+  background-color: #9f9797;
+}

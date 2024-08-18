@@ -1,0 +1,30 @@
+#about {
+  background: url('about1.jpg') no-repeat center center/cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about h1 {
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  margin: 0; 
+  padding-top: 8%; 
+  padding-left: 32%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#about p {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  margin: 0; 
+  padding-left: 36%; 
+  padding-bottom: 30%;
+  padding-top: 4%;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+}

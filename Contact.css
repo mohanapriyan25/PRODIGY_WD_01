@@ -1,0 +1,22 @@
+#contact {
+  background: url('contact1.jpg') no-repeat center center/cover;
+  
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h1{
+  padding-top: 8%;
+  font-size: 65px;
+  padding-left: 40%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#contact p{
+  text-align: left;
+  font-size: 35px;
+  padding-left: 50%;
+  font-family: 'Times New Roman', Times, serif;
+}

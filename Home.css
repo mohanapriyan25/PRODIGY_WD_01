@@ -1,0 +1,16 @@
+#home {
+  background: url('home1.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home h1{
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  padding-left: 28%;
+  padding-bottom: 9.5%; 
+  font-family: 'Times New Roman', Times, serif;
+}
